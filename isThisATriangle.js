@@ -1,0 +1,15 @@
+//create a function that accepts 3 integer values a, b, c. 
+//function should return true if a triangle can be built with the sides of given length and false in any other case.
+//to test for a triangle - the sum of any two sides must be greater than the third side
+
+function isTriangle(a,b,c)
+{
+  if ( (a + b) > c && (a + c) > b && (b + c) > a ){
+    return true
+  } else {
+    return false
+  }
+}
+
+//console.log(isTriangle(1,2,2) = true
+//console.log(isTriangle(7,2,2) = false)
