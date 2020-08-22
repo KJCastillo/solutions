@@ -3,7 +3,9 @@
 
 function solution(nums){
   if (nums === [] || nums === null){return []};
+  //if empty or null return blank array
   return nums.sort((a, b) => a - b);
+  //use sort function to sort lowest to highest
 }
 
 //console.log(solution(null)) = [];
