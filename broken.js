@@ -22,6 +22,9 @@ function broken(x){
   //join the arr to return in a string
 }
 
+//alternate solution
+return x.split('').map(a => a == "0" ? "1" : "0").join('');
+
 //broken("1"), "0"
 //broken("10000000101101111110011001000"), "01111111010010000001100110111"
 //broken("100010"), "011101"
