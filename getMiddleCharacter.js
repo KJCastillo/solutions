@@ -10,7 +10,7 @@ function getMiddle(s)
         //scenario if string equals even number
     else
         return s[middle]
-        //scenario if string equals even number
+        //scenario if string equals odd number
 }
 
 //Test.assertEquals(getMiddle("test"),"es");
