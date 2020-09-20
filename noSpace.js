@@ -4,7 +4,7 @@ function spacey(array){
   let space = ""
   return array.map( (x) => space += x)
   // return in this manner to show the space decreasing.
-  //returning variable will show final result
+  // returning variable will show final result
 }
 
 //['kevin', 'has','no','space'] returns [ 'kevin', 'kevinhas', 'kevinhasno', 'kevinhasnospace']);
