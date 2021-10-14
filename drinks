@@ -6,3 +6,5 @@ function peopleWithAgeDrink(old) {
   if (old < 21){return 'drink beer'};
   if (old >= 21){return 'drink whisky'};
 };
+
+// function peopoleWithAgeDrink(13), 'drink toddy'
