@@ -7,6 +7,7 @@ function highAndLow(numbers){
   let small = arr[0]
   for (let i in arr){
     if (parseInt(large) < parseInt(arr[i])) {
+      //parseInt() converts the input string into an integer
       large = arr[i]
       //this tests for largest possible number
     } if (parseInt(small) > parseInt(arr[i])){
