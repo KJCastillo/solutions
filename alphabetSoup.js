@@ -1,4 +1,4 @@
-//take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo) 
+//take the str parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo) 
 //assume numbers and punctuation symbols will not be included in the string - coderbyte
 
 function AlphabetSoup(str) { 
