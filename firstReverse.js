@@ -1,5 +1,5 @@
 //take the str parameter being passed and return the string in reversed order
-//for example: if the input string is "Hello World and Coders" then your program should return the string sredoC "dna dlroW olleH" - coderbyte
+//for example: if the input string is "Hello World and Coders" then your program should return the string 'sredoC dna dlroW olleH" - coderbyte
 
 function FirstReverse(str) { 
   let a = str.split('')
