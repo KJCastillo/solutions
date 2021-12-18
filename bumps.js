@@ -17,4 +17,4 @@ let bumps = 0;
  }
 }
 
-console.log(bump("_nnnnnnn_n__n______nn__nn_nnn") = "Car Dead"
+//console.log(bump("_nnnnnnn_n__n______nn__nn_nnn") = "Car Dead"
