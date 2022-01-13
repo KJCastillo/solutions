@@ -10,3 +10,8 @@ function makeNegative(num) {
     //if number postive, add negative sign in front and parseFloat to turn string into number
   }
 }
+
+//alt solution
+function makeNegative(num) {
+  return -Math.abs(num);
+}
